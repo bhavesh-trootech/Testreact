@@ -1,0 +1,27 @@
+.darkMode{background-color:#000;}
+.darkMode h3 {color: #fff;}
+.colorIndigo {
+    background: indigo;
+}
+.colorPots {
+    margin-right: 20px;
+}
+.colorPilotBox{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 2px solid #a35454;
+    line-height: 30px;
+    cursor: pointer;
+    float: left;
+    margin-right: 4px !important;
+    font-size: 0px;
+}
+.colorFireBrick{
+    background: FireBrick;
+}
+.colorPurple{
+    background: Purple;
+}
