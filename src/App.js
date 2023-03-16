@@ -27,7 +27,7 @@ function App() {
     if(mode === 'light'){
       setMode('dark');
       document.body.style.backgroundColor = '#455f91';
-      showAlert('Dark mode successfully enabled', 'success');
+      showAlert('Dark mode successfully enabled....', 'success');
       document.title = "Textutil - Dark mode";
     //   setInterval(() => {
     //     document.title = "Textutil - Dark mode";
@@ -38,7 +38,7 @@ function App() {
     }else{
       setMode('light');  
       document.body.style.backgroundColor = "white";
-      showAlert('Dark mode successfully disabled', 'success');
+      showAlert('Dark mode successfully disabled...', 'success');
       document.title= "Textutil - Light mode";
     }
     
@@ -49,7 +49,7 @@ function App() {
     if(mode !== 'Indigo'){
       setMode('Indigo');
       document.body.style.backgroundColor = "Indigo";
-      showAlert('Indigo mode successfully enabled', 'success');
+      showAlert('Indigo mode successfully enabled...', 'success');
     }
     
   }
